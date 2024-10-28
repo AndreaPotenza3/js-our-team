@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html { font-family: "Concert One", sans-serif;
+}
+
+/* Content */
+
+.main_title {
+    font-size: 30px;
+    text-align: center;
+    color: #E53170;
+}
+
+.subtitle {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Classi Debug */
+
+.debug {
+    border: 2px solid black;
+}
