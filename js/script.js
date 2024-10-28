@@ -36,3 +36,35 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+let firstElement = {}
+
+// for (let i = 0; i < teamMembers.length; i++) {
+//   const currentMember = teamMembers[i];
+  
+  //console.log(teamMembers, currentMember)
+
+//}
+
+
+for (let key in teamMembers) {
+    
+  console.log(key.['name'])
+    
+  
+}
+
+
+
+
+// const obj = {key: 'name'}
+// const newTeam = {...teamMembers}
+
+// console.log(teamMembers, obj, newTeam)
+
+
+// FUNZIONI
+
+function spreadingArray(array) {
+
+}
