@@ -6,9 +6,14 @@ html { font-family: "Concert One", sans-serif;
 
 /* LAYOUT */
 
-body {
+body * {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #5CCBF2;
 }
 
 .container {
@@ -30,12 +35,14 @@ body {
 
 .col-4 {
     width: 30%;
-}
+    
+}   
 
 .col-8 {
     width: 80%;
     margin-right: 40px;
     background-color: black;
+    padding-left: 24px;
 }
 
 img {
@@ -43,18 +50,31 @@ img {
     display: block;
 }
 
+.card-body {
+height: 100%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
 
 /* Content */
 
 .main_title {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     color: #E53170;
+    margin: 78px;
 }
 
 .subtitle {
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
+    margin-bottom: 84px;
+    font-weight: lighter;
 }
 
 /* Classi Debug */
@@ -63,6 +83,11 @@ img {
     border: 2px solid black;
 } */
 
-p {
+.card p {
     display: inline;
+    color: white;
+}
+
+h2 {
+    color: white;
 }
