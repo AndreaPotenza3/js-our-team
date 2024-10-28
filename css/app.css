@@ -4,6 +4,46 @@
 html { font-family: "Concert One", sans-serif;
 }
 
+/* LAYOUT */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1420px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    width: calc(100% / 3);
+    margin-bottom: 40px;
+}
+
+.col-4 {
+    width: 30%;
+}
+
+.col-8 {
+    width: 80%;
+    margin-right: 40px;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
 /* Content */
 
 .main_title {
@@ -19,6 +59,10 @@ html { font-family: "Concert One", sans-serif;
 
 /* Classi Debug */
 
-.debug {
+/* .debug {
     border: 2px solid black;
+} */
+
+p {
+    display: inline;
 }
