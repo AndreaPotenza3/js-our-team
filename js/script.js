@@ -37,22 +37,28 @@ const teamMembers = [
   }
 ];
 
-let firstElement = {}
+const teamRow = document.getElementById('row')
 
-// for (let i = 0; i < teamMembers.length; i++) {
-//   const currentMember = teamMembers[i];
+for (let i = 0; i < teamMembers.length; i++) {
+  const {name, role, email, img} = teamMembers[i];
   
-  //console.log(teamMembers, currentMember)
+  const teamCardHTML = `<div class="card">
+                            <div class="col-4">
+                                <img src="./${img}" alt="">                        
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h2>${name}</h2>
+                                    <p>${role}</p>
+                                    <a href="#">${email}</a>
+                                </div>
+                            </div>
+                        </div>`
 
-//}
+  teamRow.innerHTML += teamCardHTML                 
 
-
-for (let key in teamMembers) {
-    
-  console.log(key.['name'])
-    
-  
 }
+
 
 
 
